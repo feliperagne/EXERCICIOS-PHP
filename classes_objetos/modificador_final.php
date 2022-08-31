@@ -18,7 +18,7 @@ class Classe extends abstrata{
 
 $classe = new Classe();
 $classe->metodo1();
-$classe->metodo2();
+//$classe->metodo2();
 
 final class unica{ //UMA CLASSE Q NAO PODE SER HERDADA
     public $attr = 'valor';

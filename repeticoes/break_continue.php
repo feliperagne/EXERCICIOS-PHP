@@ -11,11 +11,10 @@
 
     for(;;){
     $cont++;
-    if($cont % 2 === 1)  //ENCONTRAR NUMEROS IMPARES
+    if($cont % 2 === 1){  //ENCONTRAR NUMEROS IMPARES
         continue;
         if($cont >= 30){
             break;
         }
     }
-
-    echo 'Fim!';
+    }
