@@ -8,8 +8,8 @@ try{
 }
 
 try{
-    throw new Exception('um erro aconteceu');
     echo intdiv(7,0);
+    throw new Exception('um erro aconteceu');
 } catch(DivisionByZeroError $e){
     echo 'divisao por zero<br>';
 } catch(Throwable $e){
