@@ -1,8 +1,0 @@
-version: '3.4'
-
-services:
-  cursophp:
-    image: cursophp
-    build:
-      context: .
-      dockerfile: ./Dockerfile
