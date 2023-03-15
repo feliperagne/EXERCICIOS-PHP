@@ -11,6 +11,7 @@ try{
     return $conexao;
 } catch (PDOException $e) {
     die('erro: ' . $e->getMessage());
+    
     }
 
 }
