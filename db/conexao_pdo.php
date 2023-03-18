@@ -14,7 +14,5 @@ try{
     
     }
 
-    echo "nada de novo no front";
-
 }
 
