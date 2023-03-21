@@ -1,6 +1,10 @@
 <?=
 session_start();
 print_r($_SESSION);
+
+
+
+
 ?>
 <p>
     <b>Nome: </b><?= $_SESSION['nome']?>

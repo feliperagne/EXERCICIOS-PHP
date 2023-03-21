@@ -1,8 +1,8 @@
 <?php
-function novaconexao($banco = 'projeto_php'){
+function novaconexao($banco = 'felipe'){
     $servidor = '127.0.0.1:3306';
     $usuario = 'root';
-    $senha = 'root';
+    $senha = '5599';
 
     $conexao = new mysqli($servidor,$usuario,$senha,$banco);
 
