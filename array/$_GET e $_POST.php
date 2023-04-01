@@ -16,7 +16,7 @@ echo "<br>{$_GET['nome']}";
         <option value="BA">Bahia</option>
     </select>
 <button>Enviar</button>
-
+    <p>Adicionando um parágrafo</p>
 
 </form>
 
