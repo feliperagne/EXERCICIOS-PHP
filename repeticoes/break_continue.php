@@ -2,12 +2,12 @@
 <?php 
  $cont = 16;
  for(;;){
-     echo "$cont <br>;
+     echo "$cont <br>";
      $cont++;
      if($cont > 20) {
          break;
-     }
-    }
+     };
+    };
 
     for(;;){
     $cont++;
@@ -15,5 +15,6 @@
         continue;
         if($cont >= 30){
             break;
-        }
-    }
+        };
+    };
+};
